@@ -15,7 +15,7 @@ pipeline {
         stage('Build') {
             steps {
                 git branch: 'main', credentialsId: '831267fe-b684-40dd-812d-d2dc3fa39c61', url: 'https://github.com/Saumitra-171/repo.git'
-                bat 'python lisss.py' // Use 'python3' if necessary
+                bat 'python listsort.py' // Use 'python3' if necessary
             }
         }
     }
